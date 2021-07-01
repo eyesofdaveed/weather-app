@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="/weather-app/style.css">
+    <title>Weather App</title>
+</head>
+<body class="day-bg">
+    <div class="container day">
+        <header>
+            <h1>Weather App</h1>
+            <p>Type in the city for the local weather</p>
+        </header>
+        <div class="city-form">
+            <input type="text" id="city">
+            <button id="submit">Submit</button>
+        </div>
+        <div class="weather-card">
+            <div class="card">
+                <h1 id="temperature"></h1>
+                <p id="condition"></p>
+            </div>
+        </div>
+        <div class="author">
+            <h3>by: Daulet Dauitbek</h3>
+        </div>
+    </div>
+    
+    <script src="/weather-app/script.js"></script>
+</body>
+</html>

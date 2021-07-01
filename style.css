@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #19C3FB;
+    font-family: 'Quicksand', sans-serif;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active,
+input:-internal-autofill-selected 
+{
+    background-color: transparent !important;
+}
+
+.card {
+    text-align: center;
+}
+
+.day-bg {
+    background-color: #19C3FB !important;
+}
+
+.night-bg {
+    background-color: #000a24 !important;
+}
+
+.container {
+    background-color:#E3F4FE;
+    padding: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px #003a5c71;
+    height: 600px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.day {
+    background: url(/weather-app/img/day.jpg) #e3f4fe8a;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:overlay;
+    color: black;
+}
+
+.night {
+    background: url(/weather-app/img/night.jpg) #818b92fa;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:soft-light;
+    color: white;
+}
+
+header {
+    margin-bottom: 140px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 34px;
+}
+
+.city-form {
+    width: 100%;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.city-form input {
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #1D71F2;
+    width: 100%;
+    
+}
+
+.city-form button {
+    padding: 12px;
+    border: none;
+    background-color: #1D71F2;
+    width: 100%;
+    border-radius: 15px 6px 6px 0;
+    font-size: 18px;
+    color: #E3F4FE;
+}
+
+.city-form button:hover {
+    background-color: #0544a3;
+}
+
+.author {
+    margin-top: 125px;
+}
+
