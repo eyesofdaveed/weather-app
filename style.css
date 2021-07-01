@@ -50,7 +50,7 @@ input:-internal-autofill-selected
 }
 
 .day {
-    background: url(/weather-app/img/day.jpg) #e3f4fe8a;
+    background: url(img/day.jpg) #e3f4fe8a;
     background-size: cover;
     background-position: center;
     background-blend-mode:overlay;
@@ -58,7 +58,7 @@ input:-internal-autofill-selected
 }
 
 .night {
-    background: url(/weather-app/img/night.jpg) #818b92fa;
+    background: url(img/night.jpg) #818b92fa;
     background-size: cover;
     background-position: center;
     background-blend-mode:soft-light;
